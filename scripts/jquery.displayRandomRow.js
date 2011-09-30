@@ -4,11 +4,12 @@
  * item in the collection, and hides the siblings of that element.
  *
  * @author Christopher Torgalson <chris@raisedeyebrow.com>
- * @param object options Options for the script. Currently there is only one:
+ * @param object overrides Options for the script. Currently there is only one:
  *
  *        string: rowSelector The jquery selector for the "rows" in the current
  *                            collection. Given how the script works, these MUST
  *                            be siblings.
+ * @version 1.0
  */
 (function($){
   $.fn.displayRandomRow = function(overrides) {
